@@ -316,6 +316,8 @@ All third-party licenses are preserved and remain intact. Please refer to the re
 - **QuinLED**: [quinled.info](https://quinled.info) - Hardware platform provider
 - **ESP-IDF**: Espressif Systems - ESP32 development framework
 
+**Note**: This project is not affiliated with, endorsed by, or connected to QuinLED. QuinLED and QuinLED Penta Plus are trademarks of their respective owners. This project uses the QuinLED Penta Plus board as the target hardware platform for demonstration purposes only.
+
 ## Support
 
 For issues, questions, or contributions, please refer to the project repository or contact the maintainer.
