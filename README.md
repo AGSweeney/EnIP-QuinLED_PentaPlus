@@ -182,7 +182,7 @@ The device presents the following identity information to EtherNet/IP scanners:
 - **Major Revision**: 1
 - **Minor Revision**: 1
 - **Product Name**: "QuinLEDPentaPlus"
-- **Serial Number**: 7792400897
+- **Serial Number**: 779240089
 
 ## Network Configuration
 
