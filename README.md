@@ -1,6 +1,12 @@
-# QuinLED EnIP - EtherNet/IP Controller for QuinLED Penta Plus
+# QuinLED EnIP
+
+<h2 align="center">EtherNet/IP Controller for QuinLED Penta Plus</h2>
+
+<div align="center">
 
 ![QuinLED Penta Plus](docs/QuinLEDPentaPlus.png)
+
+</div>
 
 ## Overview
 
