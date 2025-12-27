@@ -1,0 +1,378 @@
+$ EZ-EDS Version 3.38.20251024 Generated Electronic Data Sheet
+
+[File]
+        DescText = "QuinLED Penta Plus EtherNet/IP Controller";
+        CreateDate = 11-08-2025;
+        CreateTime = 10:50:49;
+        ModDate = 12-25-2025;
+        ModTime = 12:00:00;
+        Revision = 2.0;
+        HomeURL = "http://www.AGSweeney.net";
+
+[Device]
+        VendCode = 55512;
+        VendName = "AGSweeney Automation";
+        ProdType = 7;
+        ProdTypeStr = "Generic Device";
+        ProdCode = 1;
+        MajRev = 1;
+        MinRev = 1;
+        ProdName = "QuinLEDPentaPlus";
+        Icon = "favicon.ico";
+
+[Device Classification]
+        Class1 = EtherNetIP;
+
+[Params]
+        Param1 =
+                0,
+                ,,
+                0x0000,
+                0xC8,
+                4,
+                "Exclusive Owner RPI",
+                "us",
+                "Requested Packet Interval for the Exclusive Owner connection",
+                1000,,10000,
+                ,,,,
+                ,,,,
+                ;
+        Param2 =
+                0,
+                ,,
+                0x0000,
+                0xC8,
+                4,
+                "Input Only RPI",
+                "us",
+                "Requested Packet Interval for the Input Only connection",
+                1000,,10000,
+                ,,,,
+                ,,,,
+                ;
+        Param3 =
+                0,
+                ,,
+                0x0000,
+                0xC8,
+                4,
+                "Listen Only RPI",
+                "us",
+                "Requested Packet Interval for the Listen Only connection",
+                1000,,10000,
+                ,,,,
+                ,,,,
+                ;
+        Param4 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "CW LED",
+                "",
+                "Cool White LED brightness (0-255)",
+                0,0,255,
+                ,,,,
+                ,,,,
+                ;
+        Param5 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "WW LED",
+                "",
+                "Warm White LED brightness (0-255)",
+                0,0,255,
+                ,,,,
+                ,,,,
+                ;
+        Param6 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Blue LED",
+                "",
+                "Blue LED brightness (0-255)",
+                0,0,255,
+                ,,,,
+                ,,,,
+                ;
+        Param7 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Green LED",
+                "",
+                "Green LED brightness (0-255)",
+                0,0,255,
+                ,,,,
+                ,,,,
+                ;
+        Param8 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Red LED",
+                "",
+                "Red LED brightness (0-255)",
+                0,0,255,
+                ,,,,
+                ,,,,
+                ;
+        Param9 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Digital LED Count Low",
+                "",
+                "Low byte of digital LED count (0-255)",
+                0,0,255,
+                ,,,,
+                ,,,,
+                ;
+        Param17 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Digital LED Count High",
+                "",
+                "High byte of digital LED count (0-255)",
+                0,0,255,
+                ,,,,
+                ,,,,
+                ;
+        Param10 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Digital LED Enable",
+                "",
+                "Digital LED enable (0=off, 1=on)",
+                0,0,1,
+                ,,,,
+                ,,,,
+                ;
+        Param11 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Digital LED Red",
+                "",
+                "Digital LED red component (0-255)",
+                0,0,255,
+                ,,,,
+                ,,,,
+                ;
+        Param12 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Digital LED Green",
+                "",
+                "Digital LED green component (0-255)",
+                0,0,255,
+                ,,,,
+                ,,,,
+                ;
+        Param13 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Digital LED Blue",
+                "",
+                "Digital LED blue component (0-255)",
+                0,0,255,
+                ,,,,
+                ,,,,
+                ;
+        Param14 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Digital Input 1",
+                "",
+                "Digital input 1 state (0=low, 1=high)",
+                0,0,1,
+                ,,,,
+                ,,,,
+                ;
+        Param15 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Digital Input 2",
+                "",
+                "Digital input 2 state (0=low, 1=high)",
+                0,0,1,
+                ,,,,
+                ,,,,
+                ;
+        Param16 =
+                0,
+                ,,
+                0x0000,
+                0xC1,
+                1,
+                "Digital Input 3",
+                "",
+                "Digital input 3 state (0=low, 1=high)",
+                0,0,1,
+                ,,,,
+                ,,,,
+                ;
+
+[Assembly]
+        Object_Name = "Assembly Object";
+        Object_Class_Code = 0x04;
+        Number_Of_Static_Instances = 2;
+        Assem100 =
+                "Input Assembly",
+                "20 04 24 64",
+                14,
+                0x0000,
+                ,,
+                1,Param4,
+                1,Param5,
+                1,Param6,
+                1,Param7,
+                1,Param8,
+                1,Param9,
+                1,Param17,
+                1,Param10,
+                1,Param11,
+                1,Param12,
+                1,Param13,
+                1,Param14,
+                1,Param15,
+                1,Param16;
+        Assem150 =
+                "Output Assembly",
+                "20 04 24 96",
+                11,
+                0x0001,
+                ,,
+                1,Param4,
+                1,Param5,
+                1,Param6,
+                1,Param7,
+                1,Param8,
+                1,Param9,
+                1,Param17,
+                1,Param10,
+                1,Param11,
+                1,Param12,
+                1,Param13;
+
+[Connection Manager]
+        Revision = 1;
+        Object_Name = "Connection Manager Object";
+        Object_Class_Code = 0x06;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+        Connection1 =
+                0x84010002,
+                0x44640405,
+                Param1,11,Assem150,
+                Param1,14,Assem100,
+                ,,
+                ,,
+                "Exclusive Owner",
+                "Exclusive Owner connection for LED control",
+                "20 04 24 96 2C 64";
+        Connection2 =
+                0x02010002,
+                0x44640305,
+                Param2,0,,
+                Param2,14,Assem100,
+                ,,
+                ,,
+                "Input Only",
+                "Input Only connection for LED status monitoring",
+                "20 04 24 96 2C 64";
+        Connection3 =
+                0x01010002,
+                0x44240305,
+                Param3,0,,
+                Param3,14,Assem100,
+                ,,
+                ,,
+                "Listen Only",
+                "Listen Only connection for LED status monitoring",
+                "20 04 24 96 2C 64";
+
+[Port]
+        Object_Name = "Port Object";
+        Object_Class_Code = 0xF4;
+        Port1 =
+                TCP,
+                "EtherNet/IP Port",
+                "20 F5 24 01",
+                1,
+                0x00,
+                ;
+
+[Capacity]
+        MaxIOConnections = 3;
+        MaxMsgConnections = 6;
+        MaxConsumersPerMcast = 0;
+        TSpec1 = Rx, 14, 1000;
+        TSpec2 = Tx, 11, 1000;
+
+[TCP/IP Interface Class]
+        Revision = 4;
+        Object_Name = "TCP/IP Interface Object";
+        Object_Class_Code = 0xF5;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+
+[Ethernet Link Class]
+        Revision = 4;
+        Object_Name = "Ethernet Link Object";
+        Object_Class_Code = 0xF6;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+
+[Identity Class]
+        Revision = 1;
+        Object_Name = "Identity Object";
+        Object_Class_Code = 0x01;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+
+[QoS Class]
+        Revision = 1;
+        Object_Name = "QoS Object";
+        Object_Class_Code = 0x48;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+
