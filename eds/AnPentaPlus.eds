@@ -314,7 +314,7 @@ $ EZ-EDS Version 3.38.20251024 Generated Electronic Data Sheet
                 ,,
                 "Input Only",
                 "Input Only connection for LED status monitoring",
-                "20 04 24 96 2C 64";
+                "20 04 24 64";
         Connection3 =
                 0x01010002,
                 0x44240305,
@@ -324,7 +324,7 @@ $ EZ-EDS Version 3.38.20251024 Generated Electronic Data Sheet
                 ,,
                 "Listen Only",
                 "Listen Only connection for LED status monitoring",
-                "20 04 24 96 2C 64";
+                "20 04 2C 64";
 
 [Port]
         Object_Name = "Port Object";
