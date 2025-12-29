@@ -246,7 +246,7 @@ The device uses a 4MB flash with the following partition layout:
 
 An Electronic Data Sheet (EDS) file is provided for reference only:
 
-- **Location**: `eds/ESP32P4_OPENER.eds`
+- **Location**: `eds/AnPentaPlus.eds`
 - **Format**: EZ-EDS v3.38
 - **Status**: Incomplete - Do not use
 
